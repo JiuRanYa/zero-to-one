@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 import { siteConfig } from '@/config/site'
-import { buttonVariants } from '@/components/ui/button'
+import { buttonVariants } from '@zto/ui/components/button'
 import { getTranslations } from 'next-intl/server'
 
 export default async function IndexPage() {
