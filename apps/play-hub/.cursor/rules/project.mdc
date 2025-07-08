@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Project
+
+新增游戏时，逻辑加在componenets/games/，list配置在config/games.ts，i18n目录为core/i18n/

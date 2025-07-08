@@ -1,0 +1,177 @@
+{
+  "Index": {
+    "title": "Web Games",
+    "description": "A modern web games collection built with Next.js",
+    "palynow": "Play Now",
+    "github": "GitHub",
+    "games": {
+      "title": "Games"
+    }
+  },
+  "config": {
+    "name": "Play Hub",
+    "description": "Web Game is a platform for playing games."
+  },
+  "2048": {
+    "metadata": {
+      "title": "2048 - Number Puzzle Game",
+      "description": "Play the addictive 2048 puzzle game! Combine numbers, reach 2048, and challenge your strategic thinking. A perfect blend of math and strategy.",
+      "keywords": "2048, 2048 game, 2048 google, 2048 online"
+    },
+    "title": "2048",
+    "description": "A simple and addictive number puzzle game. Slide and merge matching numbers to reach 2048!",
+    "score": "Score",
+    "restart": "Restart",
+    "gameOver": "Game Over!",
+    "youWin": "You Win!",
+    "settings": {
+      "button": "Settings",
+      "title": "Game Settings",
+      "description": "Customize game difficulty and rules",
+      "difficulty": "Difficulty",
+      "difficultyDesc": "Choose preset difficulty or customize settings",
+      "selectDifficulty": "Select Difficulty",
+      "difficulties": {
+        "easy": "Easy",
+        "normal": "Normal",
+        "hard": "Hard",
+        "expert": "Expert",
+        "custom": "Custom"
+      },
+      "fourProbability": "4 Probability",
+      "fourProbabilityDesc": "Probability of generating 4 instead of 2 (0-1)",
+      "initialTiles": "Initial Tiles",
+      "initialTilesDesc": "Number of tiles at game start (1-6)",
+      "gridSize": "Grid Size",
+      "gridSizeDesc": "Size of the game grid (3-8)",
+      "winValue": "Win Value",
+      "winValueDesc": "Target number to win (128-16384)",
+      "save": "Save",
+      "resetToDefault": "Reset to Default"
+    },
+    "accordion": {
+      "rules": {
+        "title": "Game Rules",
+        "content": [
+          "Use arrow keys to move tiles",
+          "Tiles with the same number merge when they collide",
+          "A new number appears after each move",
+          "Game ends when no moves are possible",
+          "Reach 2048 to win"
+        ]
+      },
+      "controls": {
+        "title": "Controls",
+        "description": "Supported control methods:",
+        "content": [
+          "Arrow keys: ↑ ↓ ← →",
+          "WASD keys: W A S D",
+          "Mobile: Swipe screen"
+        ]
+      },
+      "scoring": {
+        "title": "Scoring Rules",
+        "content": [
+          "Score points when tiles merge",
+          "Points equal the merged number",
+          "Merge larger numbers for higher scores"
+        ]
+      },
+      "strategy": {
+        "title": "Game Tips",
+        "content": [
+          "Keep large numbers in corners",
+          "Don't move tiles randomly",
+          "Maintain an organized grid",
+          "Plan merges carefully"
+        ]
+      }
+    }
+  },
+  "sudoku": {
+    "title": "Sudoku",
+    "description": "Classic number puzzle game. Fill a 9x9 grid with numbers 1-9 so each row, column, and 3x3 box contains all digits.",
+    "metadata": {
+      "title": "Sudoku - Classic Number Puzzle",
+      "description": "Challenge yourself with the classic Sudoku puzzle game. Fill the grid with numbers using logic and deduction. Multiple difficulty levels available!",
+      "keywords": "sudoku, sudoku puzzle, number game, logic game, brain game, free sudoku, online sudoku, daily sudoku, sudoku solver, classic sudoku"
+    }
+  },
+  "minesweeper": {
+    "title": "Minesweeper",
+    "description": "Classic minesweeper game. Use logic to find all mines without triggering them. Be careful where you click!",
+    "metadata": {
+      "title": "Minesweeper - Classic Puzzle Game",
+      "description": "Play the classic Minesweeper game, featuring Google Doodle style gameplay. Test your logic and memory skills. Challenge yourself in this globally popular puzzle game!",
+      "keywords": "minesweeper, minesweeper game, google minesweeper, online minesweeper, classic minesweeper, free minesweeper, browser minesweeper, puzzle game, logic game, strategy game"
+    },
+    "title": "Minesweeper",
+    "game": {
+      "difficulty": "Difficulty",
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "expert": "Expert",
+      "remainingMines": "Mines",
+      "time": "Time",
+      "gameOver": "Game Over!",
+      "youWin": "You Win!",
+      "restart": "Restart"
+    }
+  },
+  "snake": {
+    "title": "Snake",
+    "description": "Classic arcade snake game. Control the snake to eat food and grow longer, but don't hit the walls or yourself!",
+    "metadata": {
+      "title": "Snake - Classic Arcade Game",
+      "description": "Classic Snake game where you control the snake's direction to eat food and grow longer. Test your reflexes and strategic thinking in this timeless arcade game!",
+      "keywords": "snake game, classic snake, online snake, arcade game, free game, web game"
+    },
+    "game": {
+      "gameOver": "Game Over",
+      "score": "Score",
+      "restart": "Restart"
+    },
+    "controls": {
+      "selectDifficulty": "Select Difficulty",
+      "start": "Start Game",
+      "reset": "Reset",
+      "score": "Score",
+      "controls": "Use arrow keys or WASD to control"
+    },
+    "accordion": {
+      "rules": {
+        "title": "Game Rules",
+        "content": {
+          "1": "Control the snake to eat food and grow longer",
+          "2": "Game ends if you hit a wall or your own body",
+          "3": "Snake's speed increases with difficulty",
+          "4": "Aim to achieve the highest score possible"
+        }
+      },
+      "controls": {
+        "title": "Controls",
+        "description": "Supported control methods:",
+        "content": {
+          "1": "Arrow keys: ↑ ↓ ← →",
+          "2": "WASD keys: W A S D",
+          "3": "Touch devices: Swipe to control direction"
+        }
+      },
+      "scoring": {
+        "title": "Scoring Rules",
+        "content": {
+          "1": "Earn 1 point for each food eaten",
+          "2": "Higher difficulty means faster movement and greater challenge"
+        }
+      },
+      "strategy": {
+        "title": "Game Tips",
+        "content": {
+          "1": "Keep a safe distance from walls and your body",
+          "2": "Plan your route ahead and avoid dead ends",
+          "3": "Stay calm at higher difficulties and control your movement rhythm"
+        }
+      }
+    }
+  }
+}

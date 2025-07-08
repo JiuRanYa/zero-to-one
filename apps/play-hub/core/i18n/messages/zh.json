@@ -1,0 +1,181 @@
+{
+  "Index": {
+    "title": "网页游戏合集",
+    "description": "一个网页游戏合集，包括数独、2048、俄罗斯方块等各类游戏。",
+    "palynow": "现在玩",
+    "github": "GitHub",
+    "games": {
+      "title": "游戏列表"
+    }
+  },
+  "config": {
+    "name": "玩趣集",
+    "description": "摸鱼游戏是一个平台，用于玩各种游戏。"
+  },
+  "nav": {
+    "home": "首页",
+    "games": "游戏",
+    "about": "关于"
+  },
+  "2048": {
+    "metadata": {
+      "title": "2048 - 数字益智游戏",
+      "description": "来玩令人上瘾的2048益智游戏！合并数字，达到2048，挑战你的策略思维。数学与策略的完美结合。",
+      "keywords": "2048, 2048游戏, 数字游戏, 数学游戏, 策略游戏, 脑力游戏, 免费2048, 在线2048"
+    },
+    "title": "2048",
+    "description": "一个简单而有趣的数字益智游戏，通过滑动合并相同的数字，尝试得到2048！",
+    "score": "得分",
+    "restart": "重新开始",
+    "youWin": "胜利！",
+    "gameOver": "游戏结束",
+    "settings": {
+      "button": "设置",
+      "title": "游戏设置",
+      "description": "自定义游戏难度和规则",
+      "difficulty": "难度",
+      "difficultyDesc": "选择预设难度或自定义设置",
+      "selectDifficulty": "选择难度",
+      "difficulties": {
+        "easy": "简单",
+        "normal": "普通",
+        "hard": "困难",
+        "expert": "专家",
+        "custom": "自定义"
+      },
+      "fourProbability": "4出现概率",
+      "fourProbabilityDesc": "新生成的数字是4的概率（0-1）",
+      "initialTiles": "初始方块数",
+      "initialTilesDesc": "游戏开始时的方块数量（1-6）",
+      "gridSize": "网格大小",
+      "gridSizeDesc": "游戏网格的大小（3-8）",
+      "winValue": "获胜数值",
+      "winValueDesc": "达到此数值时获胜（128-16384）",
+      "save": "保存",
+      "resetToDefault": "恢复默认"
+    },
+    "accordion": {
+      "rules": {
+        "title": "游戏规则",
+        "content": [
+          "使用箭头键移动方块",
+          "相同数字的方块相撞时会合并",
+          "每次移动后会生成一个新的数字",
+          "当无法移动时游戏结束",
+          "达到2048获胜"
+        ]
+      },
+      "controls": {
+        "title": "操作方法",
+        "description": "支持以下操作方式：",
+        "content": [
+          "键盘箭头键：↑ ↓ ← →",
+          "WASD 键：W A S D",
+          "手机：滑动屏幕"
+        ]
+      },
+      "scoring": {
+        "title": "计分规则",
+        "content": [
+          "每次合并方块都会得分",
+          "得分等于合并后的数字",
+          "尽可能合并大数字以获得高分"
+        ]
+      },
+      "strategy": {
+        "title": "游戏技巧",
+        "content": [
+          "保持大数字在角落",
+          "不要随意移动",
+          "保持方块有序排列",
+          "合并前多观察"
+        ]
+      }
+    }
+  },
+  "sudoku": {
+    "title": "数独",
+    "description": "经典的数字推理游戏，在9x9的格子中填入1-9的数字，让每行、每列和每个3x3的方格都包含1-9的数字。",
+    "metadata": {
+      "title": "数独 - 经典数字游戏",
+      "description": "挑战经典数独益智游戏。使用逻辑和推理填充数字网格。提供多种难度级别！",
+      "keywords": "数独, 数独游戏, 数字游戏, 逻辑游戏, 脑力游戏, 免费数独, 在线数独"
+    }
+  },
+  "minesweeper": {
+    "title": "扫雷",
+    "description": "经典的扫雷游戏，通过逻辑推理找出所有地雷的位置，小心不要踩到地雷！",
+    "metadata": {
+      "title": "扫雷 - 经典益智游戏",
+      "description": "经典扫雷游戏，Google Doodle同款玩法，考验你的逻辑思维和记忆力。快来挑战扫雷高手，享受这款风靡全球的益智游戏！",
+      "keywords": "扫雷, 扫雷游戏, Google扫雷, 在线扫雷, 经典扫雷, 免费扫雷, 网页扫雷"
+    },
+    "game": {
+      "difficulty": "难度",
+      "beginner": "初级",
+      "intermediate": "中级",
+      "expert": "高级",
+      "remainingMines": "剩余地雷",
+      "time": "用时",
+      "gameOver": "游戏结束",
+      "youWin": "胜利！",
+      "restart": "重新开始"
+    }
+  },
+  "snake": {
+    "title": "贪吃蛇",
+    "description": "经典的贪吃蛇游戏，通过键盘控制蛇的移动方向，吃掉食物让蛇变得更长。考验你的反应能力和策略思维！",
+    "metadata": {
+      "title": "贪吃蛇 - 经典街机游戏",
+      "description": "经典贪吃蛇游戏，通过键盘控制蛇的移动方向，吃掉食物让蛇变得更长。考验你的反应能力和策略思维，享受这款永不过时的街机游戏！",
+      "keywords": "贪吃蛇, 贪吃蛇游戏, 经典贪吃蛇, 在线贪吃蛇, 街机游戏, 免费游戏, 网页游戏"
+    },
+    "game": {
+      "gameOver": "游戏结束",
+      "score": "得分",
+      "restart": "重新开始"
+    },
+    "controls": {
+      "selectDifficulty": "选择难度",
+      "start": "开始游戏",
+      "reset": "重置",
+      "score": "得分",
+      "controls": "使用方向键或WASD控制"
+    },
+    "accordion": {
+      "rules": {
+        "title": "游戏规则",
+        "content": {
+          "1": "控制蛇移动，吃掉食物让蛇变长",
+          "2": "撞到墙壁或自己的身体会导致游戏结束",
+          "3": "蛇的移动速度会随着难度增加",
+          "4": "游戏目标是尽可能获得高分"
+        }
+      },
+      "controls": {
+        "title": "操作方法",
+        "description": "支持以下操作方式：",
+        "content": {
+          "1": "键盘箭头键：↑ ↓ ← →",
+          "2": "WASD 键：W A S D",
+          "3": "触摸设备：滑动屏幕控制方向"
+        }
+      },
+      "scoring": {
+        "title": "计分规则",
+        "content": {
+          "1": "每吃掉一个食物得1分",
+          "2": "难度越高，移动速度越快，挑战越大"
+        }
+      },
+      "strategy": {
+        "title": "游戏技巧",
+        "content": {
+          "1": "保持安全距离，避免撞到墙壁和自己",
+          "2": "提前规划路线，不要进入死胡同",
+          "3": "在高难度时要保持冷静，控制好移动节奏"
+        }
+      }
+    }
+  }
+}
