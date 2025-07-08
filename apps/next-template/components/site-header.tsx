@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 import { siteConfig } from '@/config/site'
-import { buttonVariants } from '@/components/ui/button'
-import { Icons } from '@/components/icons'
+import { buttonVariants } from '@zto/ui/components/button'
+import { Icons } from '@zto/ui/components/icons'
 import { MainNav } from '@/components/main-nav'
 import { ThemeToggle } from '@/components/theme-toggle'
 import { LanguageSwitch } from '@/components/language-switch'

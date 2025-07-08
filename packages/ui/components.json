@@ -11,12 +11,12 @@
       "prefix": ""
     },
     "aliases": {
-      "components": "@zero/ui/components",
-      "utils": "@zero/ui/lib/utils",
-      "hooks": "@zero/ui/hooks",
-      "lib": "@zero/ui/lib",
-      "ui": "@zero/ui/components",
-      "blocks": "@zero/ui/blocks"
+      "components": "@zto/ui/components",
+      "utils": "@zto/ui/lib/utils",
+      "hooks": "@zto/ui/hooks",
+      "lib": "@zto/ui/lib",
+      "ui": "@zto/ui/components",
+      "blocks": "@zto/ui/blocks"
     },
     "iconLibrary": "lucide"
   }
