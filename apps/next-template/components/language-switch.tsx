@@ -1,14 +1,14 @@
 'use client'
 
 import { usePathname, useRouter } from '@/core/i18n/navigation'
-import { Icons } from '@/components/icons'
+import { Icons } from '@zto/ui/components/icons'
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu'
-import { buttonVariants } from './ui/button'
+} from '@zto/ui/components/dropdown-menu'
+import { buttonVariants } from '@zto/ui/components/button'
 
 export function LanguageSwitch() {
   const router = useRouter()
