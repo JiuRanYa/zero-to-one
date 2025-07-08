@@ -1,0 +1,23 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+- Use Shadcn UI from `@zto/ui/components/`
+- Use zustand for state manage
+- Use pnpm
+- Use `lucide-react` for Icons
+
+- Component use props instead of destructuring it directly
+- Don't destructuring parameters directly in the function, destructure the parameters inside the function body instead.
+
+- Interface Definition: Define all interfaces outside of function bodies. This promotes reusability and clarity by keeping type definitions separate from implementation logic.
+- Interface Naming: Use descriptive names for interfaces that clearly convey their purpose and usage.
+- Interface Location: Place interface definitions in a dedicated types.ts file or at the top of the file where they are used, depending on the project's organization and scale.
+- Destructuring: Avoid destructuring props directly in the function signature. Instead, destructure them inside the function body to enhance readability and maintainability.
+
+- Interface Definition: Define all interfaces outside of function bodies. This promotes reusability and clarity by keeping type definitions separate from implementation logic.
+- Interface Naming: Use descriptive names for interfaces that clearly convey their purpose and usage.
+- Interface Location: Place interface definitions in a dedicated types.ts file or at the top of the file where they are used, depending on the project's organization and scale.
+- Destructuring: Avoid destructuring props directly in the function signature. Instead, destructure them inside the function body to enhance readability and maintainability.
